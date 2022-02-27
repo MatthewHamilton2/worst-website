@@ -1,0 +1,28 @@
+IAN - 09/02
+- slight formatting tweaks (mostly in 'style.css')(because I'm the neatest freak when it comes to code, you would not believe)
+- changed border radius of nav to be consistent with the rest of the page
+- changed colour when hovering over navbar items and other links
+- changed margins and paddings in lists
+- tweaked margins of <h1>, <h2>, and <h3> tags
+- changed the way the widths are calculated (by giving the body margins, not giving them width)
+- gave more things shadows
+- gave list elements margins
+- added the <main> tag because I like it (I made sure it doesnt break anything). I think it helps readability
+- added the footer to the rest of the pages
+- added 'basic page template.html'. It's exactly what it says on the tin
+- removed that bone picture that was the icon for the skeleton page because that bone belongs to Minecraft
+
+- 'public_events.html' scares me and I only changed one width and gave it a footer
+
+ALEX - 15/02
+- Added background image & changed colour scheme 
+- Changed images to url instead of downloaded
+
+IAN - 26/02
+- consolidated changelogs
+- tweaked some colours and shadows
+- fixed a problem with the layout of the 'about' page
+- used double columning in 'about'
+- gave more pages their proper titles
+- made a distinction between lists of links and normal lists. lists of links now need to start with '<ul class="link-list">'
+- fought a long and bloody war against formatting

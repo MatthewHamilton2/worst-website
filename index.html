@@ -1,173 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="media/logo.png" type="image/icon type" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-	<script type="text/javascript" src="scripts.js"></script>
-    <title>YALE SCHOOL OF ART | Home</title>
-  </head>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="media/logo.png" type="image/icon type">
+		<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="scripts.js"></script>
+		<title>YALE SCHOOL OF ART | Home</title>
+	</head>
 
-  <body>
-    <!-- Navigation and title -->
-    <header>YALE SCHOOL OF ART</header>
-    <nav>
-      <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="about.html">About the school</a></li>
-        <li><a href="apply.html">Apply to the school</a></li>
-        <li><a href="exhibitions.html">Exhibitions</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="news.html">News</a></li>
-        <li><a href="public_events.html">Public Events</a></li>
-      </ul>
-    </nav>
-    <main>
-      <!-- Introductory info -->
-      <div class="info">
-        <h2>Who are we</h2>
-        <p>
-          The Yale School of Art is a graduate school that confers MFAs in
-          Graphic Design, Painting/Printmaking, Photography, and Sculpture; and
-          offers undergraduate-level art courses to Yale College students. Our
-          website exists as an ongoing collaborative experiment in digital
-          publishing and information sharing. It functions as a wiki—all members
-          of the School of Art community have the ability to add new, and edit
-          most existing content.
-        </p>
-      </div>
+	<body>
+		<!-- Navigation and title -->
+		<header>
+			YALE SCHOOL OF ART
+		</header>
+		<nav>
+			<ul class="link-list">
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="about.html">About the school</a></li>
+				<li><a href="apply.html">Apply to the school</a></li>
+				<li><a href="exhibitions.html">Exhibitions</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="public_events.html">Public Events</a></li>
+				<li><a href="login.html">Log In and Register</a></li>
+			</ul>
+		</nav>
+		<main>
+			<!-- Introductory info -->
+			<div class="info">
+				<h2>Who are we</h2>
+				<p>
+					The Yale School of Art is a graduate school that confers MFAs in Graphic Design, Painting/Printmaking, Photography, and Sculpture; and offers undergraduate-level art courses to Yale College students. Our website exists as an ongoing collaborative experiment
+					in digital publishing and information sharing. It functions as a wiki—all members of the School of Art community have the ability to add new, and edit most existing content.
+				</p>
+			</div>
 
-      <!-- Additional Links -->
-      <div class="page-links">
-        <h2>Useful links</h2>
-        <ul>
-          <li><a href="#section-soa">Coming up at SOA</a></li>
-          <li><a href="#section-greenhall">Greenhall Gallery</a></li>
-          <li><a href="#section-bulletin">Community Bulletin</a></li>
-          <li><a href="public_events.html">Calendars and Newsletters</a></li>
-        </ul>
-      </div>
-	  
-	  <div>
-	  <p id ="stopanimation" onclick="showhide('stopanimation', 'startanimation'); change('greenhall', 'media/greenhallpng.png');">stop animation</p>
-	  <p style="display: none;" id ="startanimation" onclick="showhide('startanimation', 'stopanimation'); change('greenhall', 'media/greenhall.gif');">start animation</p>
-	  </div>
+			<!-- Additional Links -->
+			<div>
+				<h2>Useful links</h2>
+				<ul class="link-list">
+					<li><a href="#section-soa">Coming up at SOA</a></li>
+					<li><a href="#section-greenhall">Greenhall Gallery</a></li>
+					<li><a href="#section-bulletin">Community Bulletin</a></li>
+					<li><a href="public_events.html">Calendars and Newsletters</a></li>
+				</ul>
+			</div>
 
-      <!-- School of Art info -->
-      <div class="soa" id="section-soa">
-        <h2>Events</h2>
-        <img id="soa-image" src="media/soa_events.png" alt="SOA events" />
-        <!-- Image should be on the left, p (text) should be on the right of the image -->
-        <p>
-          Visiting Artist in Graphic Design: Dena Yago Tuesday, February 8
-          12:30PM 1156 Chapel Street, Graphic Design Atrium Open to the SoA
-          community. Full information on the calendar.
-        </p>
-        <ul>
-          <li><a href="public_events.html">Calendar</a></li>
-        </ul>
-      </div>
+			<!-- School of Art info -->
+			<div id="section-soa">
+				<h2>Events</h2>
+				<img class="floating-image-left" src="media/soa_events.png" alt="SOA events">
+				<!-- Image should be on the left, p (text) should be on the right of the image -->
+				<p>
+					Visiting Artist in Graphic Design: Dena Yago Tuesday, February 8 12:30PM 1156 Chapel Street, Graphic Design Atrium Open to the SoA community. Full information on the calendar.
+				</p>
+				<ul class="link-list">
+					<li><a href="public_events.html">Calendar</a></li>
+				</ul>
+			</div>
 
-      <!-- Greenhall Gallery info -->
-      <div class="greenhall" id="section-greenhall">
-        <h2>Green Hall Gallery</h2>
-        <!-- Image should be on the left, p (text) should be on the right of the image -->
-        <img
-          id="greenhall"
-          src="media/greenhall.gif"
-          alt="Vibrant Matters Thesis Exhibition"
-        />
+			<!-- Greenhall Gallery info -->
+			<div id="section-greenhall">
+				<h2>Green Hall Gallery</h2>
+				<!-- Image should be on the left, p (text) should be on the right of the image -->
+				<img class="floating-image-left" src="media/greenhall.gif" alt="Vibrant Matters Thesis Exhibition">
 
-        <p>
-          2022 MFA Thesis Exhibition in Painting/Printmaking Group 1: Jan. 31 –
-          Feb. 10, 2022 Green Hall Gallery, 1156 Chapel Street Group 1 of the
-          two part exhibition features work by 2022 master’s candidates Rachael
-          Catharine Anderson, Bhasha Chakrabarti, Kendrick Corp, Grant Czuj,
-          Opal Ecker DeRuvo, Anne Mailey, Kristoffer McAfee, Alex Puz, Matt
-          Smoak, Ashley Teamer, and Justin James Voiss.
-        </p>
-        <ul>
-          <li><a href="exhibitions.html">Exhibitions</a></li>
-        </ul>
-      </div>
+				<p>
+					2022 MFA Thesis Exhibition in Painting/Printmaking Group 1: Jan. 31 – Feb. 10, 2022 Green Hall Gallery, 1156 Chapel Street Group 1 of the two part exhibition features work by 2022 master’s candidates Rachael Catharine Anderson, Bhasha Chakrabarti, Kendrick
+					Corp, Grant Czuj, Opal Ecker DeRuvo, Anne Mailey, Kristoffer McAfee, Alex Puz, Matt Smoak, Ashley Teamer, and Justin James Voiss.
+				</p>
+				<ul class="link-list">
+					<li><a href="exhibitions.html">Exhibitions</a></li>
+				</ul>
+			</div>
 
-      <!-- School bulletin -->
-      <div class="bulletin" id="section-bulletin">
-        <h2>Community Bulletin</h2>
+			<!-- School bulletin -->
+			<div id="section-bulletin">
+				<h2>Community Bulletin</h2>
 
-        <!-- Text is into 2 columns -->
-        <p>
-          FACULTY/ALUMNI: POST YOUR ART APPRENTICESHIP/INTERNSHIP OPPORTUNITIES
-          FOR UNDERGRADUATES The Yale Arts Apprenticeship Program is an
-          initiative that connects Yale undergraduates, particularly those on
-          financial aid, with professional arts practitioners of any discipline.
-          As an option within Yale’s Summer Experience Award (SEA) funding
-          model, the Arts Apprenticeship must fulfill the same basic
-          requirements. Additional details, as well as those specific to the
-          Arts Apprenticeship are included below. Yale faculty, alumni, or other
-          arts practitioners interested in featuring positions through the
-          program should contact Yale’s Creative Careers advisor. Which
-          Opportunities are Eligible? Must be at least 30 hours/week, for at
-          least 8-weeks over the summer months. Those 8-weeks do not have to be
-          continuous if the mentoring Arts Practitioner agrees on a different
-          schedule. The time commitment need not all be in direct contact with
-          the Arts Practitioner. Independent projects, tasks, research, etc. can
-          comprise much of the experience, as long as the Arts Practitioner is
-          checking in regularly with the student to provide oversight and
-          career-based context. The opportunity cannot be with a for-profit
-          organization. The engagement for an Arts Apprenticeship should be
-          directly with an individual Arts Practitioner and not with a company.
-          The only exception to this would be if the company overseeing the
-          apprenticeship were a registered non-profit organization. <br />For
-          more information:
-          <a
-            href="https://ocs.yale.edu/channels/arts-apprenticeship/"
-            target="_blank"
-            >https://ocs.yale.edu/channels/arts-apprenticeship/</a
-          >
-          <br />To post a job, contact:
-          <a
-            href="https://ocs.yale.edu/staff-list/#derek-i-webster"
-            target="_blank"
-            >https://ocs.yale.edu/staff-list/#derek-i-webster</a
-          >
-        </p>
+				<!-- Text is into 2 columns -->
+				<p class="two-columns">
+					FACULTY/ALUMNI: POST YOUR ART APPRENTICESHIP/INTERNSHIP OPPORTUNITIES FOR UNDERGRADUATES The Yale Arts Apprenticeship Program is an initiative that connects Yale undergraduates, particularly those on financial aid, with professional arts practitioners of any discipline. As an option within Yale’s Summer Experience Award (SEA) funding model, the Arts Apprenticeship must fulfill the same basic requirements. Additional details, as well as those specific to the Arts Apprenticeship are included below. Yale faculty, alumni, or other arts practitioners interested in featuring positions through the program should contact Yale’s Creative Careers advisor. Which Opportunities are Eligible? Must be at least 30 hours/week, for at least 8-weeks over the summer months. Those 8-weeks do not have to be continuous if the mentoring Arts Practitioner agrees on a different schedule. <span id="dots_bulletin">...</span><span id="more_bulletin" style="display:none;">The time commitment need not all be in direct contact with the Arts Practitioner. Independent projects, tasks, research, etc. can comprise much of the experience, as long as the Arts Practitioner is checking in regularly with the student to provide oversight and career-based context. The opportunity cannot be with a for-profit organization. The engagement for an Arts Apprenticeship should be directly with an individual Arts Practitioner and not with a company. The only exception to this would be if the company overseeing the apprenticeship were a registered non-profit organization. <br>For more information: <a href="https://ocs.yale.edu/channels/arts-apprenticeship/" target="_blank">https://ocs.yale.edu/channels/arts-apprenticeship/</a> <br>To post a job, contact: <a href="https://ocs.yale.edu/staff-list/#derek-i-webster" target="_blank">https://ocs.yale.edu/staff-list/#derek-i-webster</a></span>
+				</p>
+				<button onclick="readmore('dots_bulletin', 'more_bulletin', 'button_bulletin')" id="button_bulletin">Read more</button>
 
-        <!-- Additional Links from the original website -->
-        <h3>Mapping Public Art in New Haven</h3>
-        <p>
-          Hey everyone! I’ve been mapping public art in New Haven as part of my
-          nonprofit project ArtAround and I’d love to invite you to join me, or
-          just check it out and see what you think.
-        </p>
-        <ul>
-          <li>
-            <a
-              href="https://map.artaround.org/?city=New%20Haven"
-              target="_blank"
-              >ArtAround Homepage</a
-            >
-          </li>
-          <li>
-            <a href="https://artaround.org/" target="_blank"
-              >ArtAround Homepage</a
-            >
-          </li>
-        </ul>
-      </div>
-    </main>
-    <!-- Moved the school address to the footer -->
-    <footer>
-      <p>
-        Yale School of Art 1156 Chapel Street, POB 208339 New Haven,
-        Connecticut, 06520-8339
-      </p>
-    </footer>
-  </body>
+				<!-- Additional Links from the original website -->
+				<h3>Mapping Public Art in New Haven</h3>
+				<p>
+					Hey everyone! I’ve been mapping public art in New Haven as part of my
+					nonprofit project ArtAround and I’d love to invite you to join me, or
+					just check it out and see what you think.
+				</p>
+				<ul class="link-list">
+					<li><a href="https://map.artaround.org/?city=New%20Haven" target="_blank">ArtAround Homepage</a></li>
+					<li><a href="https://artaround.org/" target="_blank">ArtAround Homepage</a></li>
+				</ul>
+			</div>
+			
+		</main>
+		<!-- Moved the school address to the footer -->
+		<footer>
+			<p>Yale School of Art 1156 Chapel Street, POB 208339 New Haven, Connecticut, 06520-8339</p>
+		</footer>
+	</body>
 </html>

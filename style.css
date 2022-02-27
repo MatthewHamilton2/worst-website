@@ -10,191 +10,187 @@
 } */
 
 body {
-  font-family: "Poppins";
-  font-size: 22px;
-  background-size: cover;
-  background-image: linear-gradient(to bottom right, #facd00, #fda00d);
-  background-repeat: no-repeat;
-  margin: 0 20%;
+	font-family: "Poppins";
+	font-size: 17px;
+	background-size: cover;
+	background-image: linear-gradient(to bottom right, #facd00, #fda00d);
+	background-repeat: no-repeat;
+	margin: 0 20%;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin: 0 0 auto 0;
+h1, h2, h3, h4 {
+	margin: 0 0 auto 0;
 }
 
 h2 {
-  font-size: 25px;
+	font-size: 25px;
 }
 
 h3 {
-  font-size: 20px;
+	font-size: 20px;
 }
 
 h4 {
-  font-size: 17px;
+	font-size: 18px;
 }
 
-header,
-nav,
-div,
-footer,
-button,
-p {
-  margin: 10px auto;
-  border-radius: 5px;
-  padding: 10px;
-  box-shadow: 2px 1px 5px 1px #cc9338;
+header, nav, div, footer, button, p {
+	margin: 10px auto;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.6);
+	overflow: hidden;
 }
 
 p {
-  box-shadow: none;
+	box-shadow: none;
 }
 
 header {
-  background-color: #7fc9ff;
-  margin-top: 50px;
-  text-align: center;
-  font-size: 40px;
-  font-family: Poppins;
-  font-weight: bold;
+	background-color: #06497a;
+	color: #acc1d0;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-family: Poppins;
+	font-weight: bold;
 }
 
 nav {
-  background-color: #a5ff7f;
-  overflow: hidden;
-}
-
-ul {
-  list-style-type: none;
-  margin: 5px;
-  padding: 5px;
+	background-color: #769ad1;
 }
 
 div {
-  background-color: #fbdb4b;
-}
-
-div p {
-  font-size: 17px;
+	background-color: #fbdb4b;
 }
 
 a {
-  color: #f2f2f2;
-  text-decoration: none;
-  text-shadow: 1px 1px 2px #ae8e00;
+	color: #0060C0;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-ul li a {
-  float: left;
-  padding: 5px 10px;
-  font-size: 20px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  border-radius: 3px;
+nav a {
+	color: #f2f2f2;
+}
+
+ul.link-list {
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
+}
+
+ul.link-list li a {
+	float: left;
+	padding: 5px 10px;
+	font-size: 20px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+
+.login ul {
+	list-style-type: disc;
+	margin-left: 50px;
 }
 
 .vibrant-matters ul {
-  list-style: disc;
-  font-size: 17px;
-  margin-left: 50px;
+	list-style: disc;
+	margin-left: 50px;
 }
+
 
 /* Add a color to the active/current link */
 
 a:hover {
-  background-color: #fcb524;
-  color: #ffffff;
-  border-radius: 3px;
+	background-color: #fcb524;
+	color: #3090E0;
+	border-radius: 3px;
 }
 
-nav a:hover,
-a.active {
-  background-color: #82de5b;
+nav a:hover, a.active {
+	background-color: #5A85BB;
+	color: #ffffff;
 }
 
-.soa,
-.greenhall,
-.bulletin,
-.page-links {
-  overflow: hidden;
+.floating-image-left, .floating-image-right {
+	max-width: 600px;
+	max-height: 600px;
+	margin-right: 10px;
 }
 
-#soa-image,
-#greenhall {
-  max-width: 600px;
-  max-height: 600px;
-  float: left;
-  margin-right: 10px;
+.floating-image-left {
+	float: left;
+}
+
+.floating-image-right {
+	float: right;
 }
 
 .soa p {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 footer {
-  background-color: #a17fff;
-  font-size: 14px;
+	background-color: #a17fff;
+	font-size: 14px;
 }
 
 button {
-  margin: 10px 5px 0 0;
-  padding: 5px;
-  background-color: #d67fff;
+	margin: 10px 5px 0 35px;
+	padding: 5px;
+	background-color: #d67fff;
+	width: 100px;
+	height: 30px;
 }
 
-.bulletin p {
-  column-count: 2;
+.login-main button {
+	width: 300px;
 }
 
-/*p {
-	background: rgba(255, 255, 255, 0.25);
-}*/
-
-/* Done the parent and child so we can show the info on the left 
-   and the useful links on the right
-   but I couldn't do it lol */
-
-.parent {
-  border: 1px solid black;
-  margin: 1rem;
-  padding: 2rem 2rem;
-  text-align: center;
+.login a:hover, .login-main a:hover {
+	background-color: #fbdb4b;
 }
 
-.child {
-  display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
-  vertical-align: middle;
+.two-columns {
+	column-count: 2;
+}
+
+#about-left {
+	float: left;
+	width: 64%;
+}
+
+#about-right {
+	float: right;
+	width: 30%;
 }
 
 
 @media screen and (max-width: 1300px) {
-  body {
-    margin: 0 10%;
-  }
+	body {
+		margin: 0 10%;
+	}
 }
 
 @media screen and (max-width: 700px) {
-  body {
-    margin: 0 15px;
-  }
+	body {
+		margin: 0 15px;
+	}
 }
 
 @media screen and (max-width: 450px) {
-  #soa-image {
-    float: none;
-  }
+	#floating-image-right, #floating-image-left {
+		float: none;
+	}
 }
 
 @media screen and (max-width: 900px) {
-  #soa-greenhall {
-    float: none;
-  }
-  .bulletin p {
-    column-count: 1;
-  }
+	#soa-greenhall {
+		float: none;
+	}
+	.two-columns {
+		column-count: 1;
+	}
 }
+
